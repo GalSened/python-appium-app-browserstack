@@ -10,7 +10,7 @@ import time
 # instead: https://github.com/appium/python-client/pull/720
 options = XCUITestOptions().load_capabilities({
     # Set URL of the application under test
-    "app" : "bs://<app-id>",
+    "app" : "bs://70dc15b73578e06fa4137e62a5b1f12067b4ba24",
 
     # Specify device and os_version for testing
     "deviceName": "iPhone 11 Pro",
@@ -19,8 +19,8 @@ options = XCUITestOptions().load_capabilities({
 
     # Set other BrowserStack capabilities
     "bstack:options": {
-        "userName" : "YOUR_USERNAME",
-        "accessKey" : "YOUR_ACCESS_KEY",
+        "userName" : "galsened_ng8lGY",
+        "accessKey" : "DwB92xfqLs8ssfhcGVcd",
         "projectName" : "First Python project",
         "buildName" : "browserstack-build-1",
         "sessionName" : "BStack first_test"
